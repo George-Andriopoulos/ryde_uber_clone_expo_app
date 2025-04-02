@@ -1,9 +1,12 @@
+import React from "react";
 import { SafeAreaView, Text } from "react-native";
+import { View } from "react-native";
 
-export default function Index() {
+const Home = () => {
 	return (
-		<SafeAreaView className='flex-1 items-center justify-center bg-white'>
-			<Text className='text-red-500 text-5xl'>Welcome</Text>
+		<SafeAreaView>
+			<Text>Home</Text>
 		</SafeAreaView>
 	);
-}
+};
+export default Home;
